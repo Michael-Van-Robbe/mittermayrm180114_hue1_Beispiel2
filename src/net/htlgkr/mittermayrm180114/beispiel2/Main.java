@@ -26,5 +26,19 @@ public class Main
         {
             evenNumbers.add(i);
         }
+
+        for(int i = 0; i < evenNumbers.size(); i++)
+        {
+            for(int x = 0; x < primeNumbers.size(); x++)
+            {
+                for(int y = 0; y < primeNumbers.size(); y++)
+                {
+                    if(evenNumbers.get(i) == primeNumbers.get(x) + primeNumbers.get(y))
+                    {
+                        System.out.println(evenNumbers.get(i) + " = " + primeNumbers.get(x) + " + " + primeNumbers.get(y));
+                    }
+                }
+            }
+        }
     }
 }
