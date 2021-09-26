@@ -35,7 +35,7 @@ public class Main
                 {
                     if(evenNumbers.get(i) == primeNumbers.get(x) + primeNumbers.get(y))
                     {
-                        System.out.println(evenNumbers.get(i) + " = " + primeNumbers.get(x) + " + " + primeNumbers.get(y));
+                        System.out.println("Number: " + evenNumbers.get(i) + " = " + primeNumbers.get(x) + " + " + primeNumbers.get(y));
                     }
                 }
             }
